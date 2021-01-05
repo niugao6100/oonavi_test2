@@ -1,0 +1,13 @@
+%% NMS email template file %%
+------------------------------------------------------------
+Date:       {= date =}
+IP Address: {= env.REMOTE_ADDR =}
+User Agent: {= env.HTTP_USER_AGENT =}
+Referer:    {= env.HTTP_REFERER =}
+------------------------------------------------------------
+
+以下の内容でフォームメールより送信がありました。
+
+{= FOREACH input_field =}
+{= name =}：　{= value =}
+{= END =}

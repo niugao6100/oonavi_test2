@@ -1,0 +1,101 @@
+
+@media screen and (max-width: 480px){
+  .page-body{
+    font-size: 14px;
+  }
+}
+#header-container .navi,
+#navi .navi-in > .menu-header .sub-menu{
+  background-color: #2f2ac9;
+}
+#navi .navi-in a,
+#navi .navi-in a:hover{
+  color: #fff;
+}
+#navi .navi-in a:hover{
+  background-color: rgba(255, 255, 255, 0.2);
+}
+#navi .navi-in > ul > li{
+  width: 120px;
+}
+#navi .navi-in > ul .sub-menu{
+  min-width: 200px;
+}
+#navi .navi-in > ul .sub-menu ul{
+  left: 200px;
+}
+.main{
+  width: 820px;
+}
+.main{
+  padding: 20px 10px;
+}
+.main{
+  border-width: 0px;
+}
+.sidebar{
+  width: 210px;
+}
+.sidebar{
+  padding: 9px 5px;
+}
+.sidebar{
+  border-width: 0px;
+}
+.main{
+    margin-right: 0px;
+  margin-left: 0;
+  }
+.eye-catch-wrap{
+  justify-content: center;
+}
+.eye-catch {
+  width: 100%;
+}
+.eye-catch img,
+.eye-catch amp-img{
+  width: 100%;
+  min-width: 100%;
+  display: block;
+}
+#respond {
+  display: none;
+}
+#navi .navi-in > ul > li{
+  width: auto;
+}
+#navi .navi-in > ul > li > a{
+  padding: 0 1.4em;
+}
+.entry-content > *,
+.demo .entry-content p {
+  line-height: 1.8;
+}
+    .main p,
+  .main p.wp-block-paragraph {
+    line-height: 1.8;
+  }
+  .entry-content > *,
+.demo .entry-content p {
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+}
+.entry-content > .micro-top{
+  margin-bottom: -1.54em;
+}
+.entry-content > .micro-balloon{
+  margin-bottom: -1.12em;
+}
+.entry-content > .micro-bottom{
+  margin-top: -1.54em;
+}
+.entry-content > .micro-bottom.micro-balloon{
+  margin-top: -1.12em;
+  margin-bottom: 1.4em;
+}
+    .main p,
+  .main p.wp-block-paragraph {
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+  }
+  

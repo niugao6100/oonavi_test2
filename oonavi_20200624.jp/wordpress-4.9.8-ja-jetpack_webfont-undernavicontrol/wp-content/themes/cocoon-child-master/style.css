@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Cocoon Child
+Template:   cocoon-master
+Version:    1.0.8
+*/
+
+/************************************
+** 子テーマ用のスタイルを書く
+************************************/
+/*必要ならばここにコードを書く*/
+/*
+@import url("search.css");
+*/
+
+
+
+.content {
+	margin-top: 0;
+}
+
+.main {
+	padding: 0 029px 20px;
+}
+
+.footer {
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.footer-bottom {
+	margin-top: 0;
+	padding-top:0;
+}
+
+.article-footer.entry-footer{
+	height:0px;
+}
+
+ul.sub-menu li {
+	position:relative;
+	vertical-align:middle;
+	height:30px;
+	line-height:30px;
+	text-align:center;
+}
+
+img {
+	clear: both;
+	height: 35px;
+	width: auto;
+}
+
+.search-box{
+	position:relative;
+	float: left;
+	margin-right: 0.5em;
+	width: 40%;
+}
+
+.global_search_select{
+	position: relative;
+	display: inline-block;
+	width: 12%;
+	height: 100px;
+}
+
+select{
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+select::-ms-expand {
+	display: none;
+}
+
+.select_submit {
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 20px;
+  cursor: pointer;
+  line-height: 49px;
+  border: none;
+  color: #ccc;
+  padding: 0 8px;
+  background-color: rgba(255, 255, 255, 0);
+}
+
+.select_submit::before {
+  font-family: FontAwesome;
+  content: "\f105";
+  padding-right: 4px;
+}
+
+
+
+
+/************************************
+** レスポンシブデザイン用のメディアクエリ
+************************************/
+/*1240px以下*/
+@media screen and (max-width: 1240px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*1030px以下*/
+@media screen and (max-width: 1030px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*768px以下*/
+@media screen and (max-width: 768px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*480px以下*/
+@media screen and (max-width: 480px){
+  /*必要ならばここにコードを書く*/
+}

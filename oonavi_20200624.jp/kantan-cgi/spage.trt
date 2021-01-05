@@ -1,0 +1,33 @@
+%% NMS html template file %%
+<? xml version="1.0" encoding="shift_jis" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+	"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<title>送信完了</title>
+	<style>
+		* {font-size: 14px;}
+		h1 {font-size: 16px; font-weight: normal;}
+		div.success {font-size: 16px; font-weight: bold; color: #003399;}
+		div.missing {font-size: 16px; font-weight: bold; color: #CF1B1F;}
+	</style>
+</head>
+
+<body>
+
+<h1><div class="success">ありがとうございます。</div>
+以下の内容でメールの送信が完了致しました。</h1>
+
+<hr size="1" width="100%" />
+
+<p>　送信日時： {= date =}</p>
+
+<ul>
+{= FOREACH input_field =}
+	<li>{= name =}：　{= value =}</li>
+{= END =}
+</ul>
+
+</body>
+</html>
